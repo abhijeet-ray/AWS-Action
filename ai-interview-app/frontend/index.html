@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Interview Practice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <h1 class="logo">AI Interview</h1>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#scheduler">Schedule</a></li>
+        <!-- <li><a href="#features">Why Choose Us</a></li> -->
+        <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <button id="darkModeToggle" class="btn-toggle">Dark Mode</button>
+    </div>
+  </nav>
+  
+  <!-- Hero Section -->
+  <section id="hero" class="hero fade-in">
+    <div class="container">
+      <header class="hero-header">
+        <h1>Welcome to AI Interview Practice</h1>
+        <p>
+          Prepare for your dream job with our cutting-edge, AI-powered interview simulations.
+          Experience realistic scenarios, receive instant feedback, and access detailed performance analytics
+          to help you continuously improve and succeed.
+        </p>
+      </header>
+      <!-- <div class="hero-cta">
+        <a href="#scheduler" class="btn-primary">Learn More</a>
+      </div> -->
+    </div>
+  </section>
+  
+  <!-- Schedule Section -->
+  <section id="scheduler" class="scheduler fade-in">
+    <div class="container">
+      <h2>Schedule Your Interview</h2>
+      <form id="scheduleForm">
+        <div class="form-group">
+          <label for="profile">Select Profile:</label>
+          <select id="profile" name="profile" required>
+            <option value="DevOps">DevOps</option>
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="Data Scientist">Data Scientist</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="experience">Experience Level:</label>
+          <select id="experience" name="experience" required>
+            <option value="Entry">Entry-Level</option>
+            <option value="Mid">Mid-Level</option>
+            <option value="Senior">Senior-Level</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-primary">Start Interview</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Why Choose Us Section -->
+  <section id="features" class="features fade-in">
+    <div class="container">
+      <h2>Why Choose Our Platform?</h2>
+      <p>
+        Our platform is designed to empower you with the skills and confidence to ace your interviews.
+        Using the latest in AI technology, we provide personalized feedback, realistic simulations, and comprehensive analytics to tailor your preparation.
+      </p>
+      <div class="feature-list">
+        <div class="feature-item">
+          <h3>Real-time Simulation</h3>
+          <p>
+            Engage in authentic interview scenarios complete with live video interactions and interactive AI feedback.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Instant Feedback</h3>
+          <p>
+            Receive immediate, actionable insights after each session so you know exactly where to improve.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Detailed Analytics</h3>
+          <p>
+            Access in-depth performance reports that track your progress over time, highlighting strengths and pinpointing areas for growth.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials fade-in">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <p>
+        See what our users have to say about how our platform helped them excel in their interviews.
+      </p>
+      <div class="testimonial-list">
+        <div class="testimonial-item">
+          <p>
+            "This platform transformed my interview skills. The feedback was spot on, and the simulations felt incredibly real!"
+          </p>
+          <h4>- Alex P.</h4>
+        </div>
+        <div class="testimonial-item">
+          <p>
+            "I landed my dream job thanks to the comprehensive preparation provided here. I highly recommend it to anyone serious about success."
+          </p>
+          <h4>- Maria L.</h4>
+        </div>
+        <div class="testimonial-item">
+          <p>
+            "A game-changer in interview preparation. The detailed analytics helped me focus on my weaknesses and improve my performance drastically."
+          </p>
+          <h4>- John D.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>
+        If you have any questions or need further information, we're here to help. Reach out to us and let's start a conversation.
+      </p>
+      <p>
+        Email us at <a href="mailto:info@aiinterview.com">info@aiinterview.com</a> or call us at <strong>+1 234 567 890</strong>.
+      </p>
+      <p>
+        We look forward to assisting you on your journey to success!
+      </p>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>

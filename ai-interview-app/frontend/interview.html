@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Interview</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <h1 class="logo">AI Interview</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <button id="darkModeToggle" class="btn-toggle">Dark Mode</button>
+    </div>
+  </nav>
+  <div class="full-page">
+    <!-- Interview Panels (side by side) -->
+    <div class="interview-container">
+      <div class="interviewer-panel">
+        <img id="aiAvatar" src="assets/ai-avatar.png" alt="AI Interviewer" class="avatar">
+      </div>
+      <div class="interviewee-panel">
+        <video id="videoPreview" autoplay muted></video>
+        <p id="processingFeedback"></p>
+      </div>
+    </div>
+    <!-- Question & Buttons Container -->
+    <div class="question-container">
+      <h3 id="questionBox">Loading question...</h3>
+      <div class="button-group">
+        <button id="nextQuestion" class="btn-primary">Next Question</button>
+        <button id="endInterview" class="btn-danger">End Interview</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
